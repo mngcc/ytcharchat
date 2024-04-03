@@ -14,9 +14,9 @@ const pixeloidBold = localFont({
 });
 
 export const metadata = {
-  title: "Youtube Character Live Chat",
+  title: "YTCHARCHAT",
   description:
-    "Enhance your livestream with YouTube Character Live Chat! Witness ordinary comments evolve into delightful personalities, elevating audience engagement. Immerse yourself and viewers in a realm of fun and creativity, transforming every comment into a memorable moment.",
+    "GG",
 };
 
 export default function RootLayout({ children }) {
