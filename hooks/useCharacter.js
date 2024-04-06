@@ -8,7 +8,7 @@ const arrayChooser = (array) => {
   return array[randomIndex];
 };
 
-const characterImage = ["blue_dino", "yellow_dino", "red_dino", "green_dino"];
+const characterImage = ["bear"];
 
 function useCharacter(user) {
   const characterRef = useRef(null);
