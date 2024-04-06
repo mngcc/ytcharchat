@@ -8,8 +8,8 @@ export default function Character({ user }) {
     useCharacter(user);
   return (
     <div
-      className="absolute"
-      style={{bottom:5rem, left: -200, width: 256 }}
+      className="absolute bottom-16"
+      style={{ left: -200, width: 256 }}
       ref={characterRef}
     >
       <img
