@@ -8,8 +8,8 @@ export default function Character({ user }) {
     useCharacter(user);
   return (
     <div
-      className="absolute bottom-16"
-      style={{ left: -200, width: 256 }}
+      className="absolute"
+      style={{bottom:5rem, left: -200, width: 256 }}
       ref={characterRef}
     >
       <img
@@ -17,7 +17,7 @@ export default function Character({ user }) {
         src={`/character/${imageName}_${isMove ? "move" : "idle"}.gif`}
         style={{
           transform: direction < 0 ? "scaleX(-1)" : "scaleX(1)",
-          height: 72,
+          height: 105,
         }}
         alt={user.author.name}
       />
