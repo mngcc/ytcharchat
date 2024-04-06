@@ -8,7 +8,7 @@ export default function Character({ user }) {
     useCharacter(user);
   return (
     <div
-      className="absolute bottom-16"
+      className="absolute bottom-24"
       style={{ left: -200, width: 256 }}
       ref={characterRef}
     >
